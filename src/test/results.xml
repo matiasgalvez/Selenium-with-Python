@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="Matias-PC" name="pytest" skipped="1" tests="7" time="0.114" timestamp="2020-09-22T09:35:33.689357"><testcase classname="test_001.FirstTest" file="test_001.py" line="9" name="test_001" time="0.001"><failure message="AttributeError: &apos;FirstTest&apos; object has no attribute &apos;a&apos;">self = &lt;src.test.test_001.FirstTest testMethod=test_001&gt;
+
+    def test_001(self):
+&gt;       self.res = self.a + self.b
+E       AttributeError: &apos;FirstTest&apos; object has no attribute &apos;a&apos;
+
+test_001.py:11: AttributeError</failure></testcase><testcase classname="test_001.SecondTest" file="test_001.py" line="24" name="test_002" time="0.001"><failure message="AttributeError: &apos;SecondTest&apos; object has no attribute &apos;a&apos;">self = &lt;src.test.test_001.SecondTest testMethod=test_002&gt;
+
+    def test_002(self):
+&gt;       self.res = self.a + self.b
+E       AttributeError: &apos;SecondTest&apos; object has no attribute &apos;a&apos;
+
+test_001.py:26: AttributeError</failure></testcase><testcase classname="test_002.FirstTest" file="test_002.py" line="8" name="test_002" time="0.001"></testcase><testcase classname="test_002.FirstTest" file="test_002.py" line="15" name="test_003" time="0.001"></testcase><testcase classname="test_002.FirstTest" file="test_002.py" line="31" name="test_004" time="0.001"></testcase><testcase classname="test_003.test_002" file="test_003.py" line="15" name="test_004" time="0.001"><skipped message="El valor es muy inferior para ejecutar la prueba" type="pytest.skip">E:\SeleniumWithPython\src\test\test_003.py:20: El valor es muy inferior para ejecutar la prueba</skipped></testcase><testcase classname="test_003.test_002" file="test_003.py" line="9" name="test_comparacion" time="0.001"></testcase></testsuite></testsuites>
