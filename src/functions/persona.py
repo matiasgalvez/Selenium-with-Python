@@ -14,4 +14,7 @@ class Persona:
 
 
 persona1 = Persona("Matias", "Galvez", "37500685", "aosnfaojfnajofn")
+persona2 = Persona("Pamela", "Quintana", "37100917", "pqblablabla@gmail.com")
 persona1.mostrar_valores()
+persona2.mostrar_valores()
+

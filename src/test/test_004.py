@@ -1,3 +1,6 @@
+# Selenium test: visit google account creation site, fill all fields and advance to number verification step,
+# asserting that a text in that step exists
+
 import unittest
 import time
 from selenium import webdriver
@@ -11,6 +14,7 @@ class FourthTest(unittest.TestCase):
         self.persona1 = persona.persona1
         self.persona1.passwd = '132456dni'
         self.driver = webdriver.Chrome()
+        self.driver.implicitly_wait(10)
         self.driver.maximize_window()
 
     def test_004(self):
