@@ -11,10 +11,10 @@ class FirstTest(unittest.TestCase):
         self.Variable_A = 51
         self.Variable_B = 50
 
-        assert self.Variable_A != self.Variable_B, "Los valores son distintos"
+        assert self.Variable_A != self.Variable_B, "Los valores son iguales"
 
     def test_004(self):
-        self.Variable_A = 2
+        self.Variable_A = 50
 
         if self.Variable_A < 3:
             pytest.skip("El valor es muy inferior para ejecutar la prueba")
