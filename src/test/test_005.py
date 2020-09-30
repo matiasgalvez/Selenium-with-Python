@@ -1,4 +1,4 @@
-# Selenium test: visit twitter site, fill all fields and advance to number verification step,
+# Selenium test: visit facebook site, fill all fields and advance to number verification step,
 # asserting that a text in that step exists
 
 import unittest
