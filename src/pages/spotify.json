@@ -1,0 +1,26 @@
+{
+  "Logo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@class='Header__LogoContainer-nt28l4-2 lXGct']"
+  },
+    "Titulo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h2[contains(@class,'center hdr-l')]"
+  },
+  "Email": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@name='email']"
+  },
+  "Email Confirmacion": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@name='confirm']"
+  },
+  "Pass": {
+    "GetFieldBy": "id",
+    "ValueToFind": "password"
+  },
+  "Nombre":{
+    "GetField" : "Xpath",
+    "ValueToFind" : "//input[contains(@id,'displayname')]"
+  }
+}

@@ -26,7 +26,11 @@ for pais in array:
 
 # Diccionarios
 
-diccionario = {'nombre': 'Matías', 'edad': 27, 'cursos': ['Python', 'Javascript', 'C#']}
+diccionario = {
+    'nombre': 'Matías',
+    'edad': 27,
+    'cursos': ['Python', 'Javascript', 'C#']
+}
 nombre = diccionario['nombre']
 
 print(f'Hola {nombre}!')
